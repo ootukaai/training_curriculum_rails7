@@ -12,7 +12,7 @@
     <% @week_days.each do |day| %>
       <div class='item'>
         <div class='date'>
-          <% day[:month] %>/<% day[:date] %>
+          <%=day[:month] %>/<%=day[:date] %>
         </div>
         <ul class='content'>
         <% if day[:plans].length != 0 %>
@@ -28,6 +28,3 @@
 
 
 
-ハッシュ　｛キー：バリュー｝
-インスタンス変数　ほかでも使える変数
-ローカル変数　同じクラスの中でしか使えない変数
